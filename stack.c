@@ -29,7 +29,7 @@ void push(stack* s, int value){
     }
 }
 
-int pop(stack* s){
+void pop(stack* s){
     if (is_empty(s)){
         printf("stack is empty\n");
     }
